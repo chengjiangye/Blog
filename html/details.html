@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../res/css/main.css">
+<!--加载meta IE兼容文件-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div class="header">
+    <div class="menu-btn">
+      <div class="menu"></div>
+    </div>
+    <h1 class="logo">
+      <a href="index.html">
+        <span>MYBLOG</span>
+        <img src="../res/img/logo.png">
+      </a>
+    </h1>
+    <div class="nav">
+      <a href="index.html">文章</a>
+      <a href="whisper.html">微语</a>
+      <a href="leacots.html">留言</a>
+      <a href="album.html">相册</a>
+      <a href="about.html"  class="active">关于</a>
+    </div>
+    <ul class="layui-nav header-down-nav">
+      <li class="layui-nav-item"><a href="index.html" class="active">文章</a></li>
+      <li class="layui-nav-item"><a href="whisper.html">微语</a></li>
+      <li class="layui-nav-item"><a href="leacots.html">留言</a></li>
+      <li class="layui-nav-item"><a href="album.html">相册</a></li>
+      <li class="layui-nav-item"><a href="about.html"  class="active">关于</a></li>
+    </ul>
+    <p class="welcome-text">
+      欢迎来到<span class="name">coco</span>的博客~
+    </p>
+  </div>
+
+
+  <div class="content whisper-content leacots-content details-content">
+    <div class="cont w1000">
+      <div class="whisper-list">
+        <div class="item-box">
+          <div class="review-version">
+              <div class="form-box">
+                <div class="article-cont">
+                  <div class="title">
+                    <h3>GitHub 上非常有用的14个Java 项目</h3>
+                    <p class="cont-info"><span class="data">2019/03/15</span><span class="types">技术文章</span></p>
+                  </div>
+                  <img src="../res/img/wz_img1.jpg">
+                  <p>在 GitHub 上有很多项目，能够帮我们优化手头的编程项目，或学习更多编程知识。下面我们分享 GitHub 上 14 个既有趣又有用的 Java 项目。</p>
+                  <p>Bootique——让 Java 应用开发更简单</p>
+                  <p>该项目的目的就是将应用从 Java 容器中解放出来，让开发者回收它们的 main() 方法。此外项目还有一些内置命令，所以如果你代码不足，或者没有向应用中导入任何模块，仍然能使用 Bootique 来执行它们。</p>
+                  <p>项目地址：</p>
+                  <p>https://github.com/bootique/bootique</p>
+                  <p>99-problems——优雅地解决问题</p>
+                  <p>项目的名字叫 99-problems，你应该也猜到了，它是一系列 Java 问题的合集，旨在帮你练习逻辑编程技能。你可以选择用 Java 8，Scala 或 Haskell 解决这些问题，而且你的最终目标就是找到解决这些问题的最优雅方法。</p>
+                  <P>项目所含的问题也分为不同的难度，问题的解答时间从 15 分钟到几个小时不等。如果比较喜欢这类做题挑战，还可以试试“Java Deathmatch”（http://www.javadeathmatch.com/），像做游戏一样完成Java挑战，答案在这里：https://blog.takipi.com/4-out-of-5-java-developers-failed-to-solve-this-question/</P>
+                  <p>项目地址：</p>
+                  <P>https://github.com/shekhargulati/99-problems</P>
+                  <p>Strman-java——字符串操作</p>
+                  <P>Strman-java 是一个 Java 库，专门用于字符串。由于它在 Maven 上可用，所以你只需向你选择的创建工具添加一个依赖即可。</P>
+                  <P>另外，该项目还包含了一列函数，包括向值添加字符串，以特定索引获取字符，返回字符串起始和结尾之间的数组等等。</P>
+                  <P>项目地址：</P>
+                  <P>https://github.com/shekhargulati/strman-java</P>
+                  <P>Dex——数据分析</P>
+                  <P>如果你想以一种很酷的方式和自己的数据交互，那应该看看 Dex 这个项目。借助 Dex，你可以提取、转换和可视化你的数据，也会获得一些预测功能。</P>
+                  <P>Dex 能让你生成超过 50 种可视化模式，包括世界地图、时间线等。可以将它和 R 的运行实例整合，接入统计分析和预测分析。</P>
+                  <P>项目地址：</P>
+                  <P>https://github.com/PatMartin/Dex</P>
+                  <P>Tablesaw——让大数据轻量化</P>
+                  <P>Tablesaw 是一个内存数据表，包括数据工具和面向列的存储格式。其设计理念就是很小的任务不需要分布式分析，我们可以在单个服务器上处理多达 2 百万行的图表。</P>
+                  <P>你可以用 Tablesaw 来应用一些规则，以确定显示布局、数据优先度或添加一系列的扩展程序，让用户控制数据展示和交互。用 Tablesaw 可以从 RDBMS 和 CSV 文件中导入数据，添加和移除列，或以压缩的列存储格式来存储表格。</P>
+                  <P>项目地址：</P>
+                  <P>https://github.com/lwhite1/tablesaw</P>
+                  <p>Chronicle Map —— key value 存储</p>
+                  <P>Chronicle Map 是一个内存 key-value 存储，面向低延迟或多进程应用设计，比如交易和金融市场应用。该项目面向中等延迟的读写查询，能让你编写的查询很好地扩展至服务器上硬件执行线程的数量。</P>
+                  <p>其主要用途是替换用在单个服务器（比如 Redis）上的速度缓慢的 key-value 存储，或替换相似的 JVM 解决方法用以加快它们的速度。还能将你的部分应用状态移出 Java 堆内存，降低堆大小和 GC 压力。</p>
+                  <P>项目地址：</P>
+                  <P>https://github.com/OpenHFT/Chronicle-Map</P>
+                  <P>Gumshoe——应用数据统计</P>
+                  <P>Gumshoe 能让你监控你的应用性能统计数据。有了它，我们可以精确地找到代码行，获取调用栈和单独栈帧相关的统计信息。这意味着你能够分析资源使用状况（TCP，UDP等）。</P>
+                  <P>使用 Gumshoe 还可以筛选和可视化它所生成的统计数据。</P>
+                  <P>项目地址：</P>
+                  <P>https://github.com/dcm-oss/gumshoe</P>
+
+                  <div class="btn-box">
+                    <button class="layui-btn layui-btn-primary">上一篇</button>
+                    <button class="layui-btn layui-btn-primary">下一篇</button>
+                  </div>
+                </div>
+                <div class="form">
+                  <form class="layui-form" action="">
+                    <div class="layui-form-item layui-form-text">
+                      <div class="layui-input-block">
+                        <textarea name="desc" placeholder="既然来了，就说几句" class="layui-textarea"></textarea>
+                      </div>
+                    </div>
+                    <div class="layui-form-item">
+                      <div class="layui-input-block" style="text-align: right;">
+                        <button class="layui-btn definite">確定</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="volume">
+                全部留言 <span>10</span>
+              </div>
+              <div class="list-cont">
+                <!--<div class="cont">
+                  <div class="img">
+                    <img src="../res/img/header.png" alt="">
+                  </div>
+                  <div class="text">
+                    <p class="tit"><span class="name">吳亦凡</span><span class="data">2019/03/15</span></p>
+                    <p class="ct">敢问大师，师从何方？上古高人呐逐一地看完你的</p>
+                  </div>
+                </div>-->
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="demo" style="text-align: center;"></div>
+    </div>
+  </div>
+  <script type="text/html" id="laytplCont">
+    <div class="cont">
+      <div class="img">
+        {{#  if(d.avatar){ }}
+        <img src="{{d.avatar}}" alt="">
+        {{#  } else { }}
+        <img src="../res/img/header.png" alt="">
+        {{# } }}
+      </div>
+      <div class="text">
+        <p class="tit"><span class="name">{{d.name}}</span><span class="data">2018/06/06</span></p>
+        <p class="ct">{{d.cont}}</p>
+      </div>
+    </div>
+  </script>
+  <div class="footer-wrap">
+    <div class="footer w1000">
+      <div class="qrcode">
+        <img src="../res/img/erweima.jpg">
+      </div>
+      <div class="practice-mode">
+        <img src="../res/img/down_img.jpg">
+        <div class="text">
+          <h4 class="title">我的联系方式</h4>
+          <p>微信<span class="WeChat">cjy478708167</span></p>
+          <p>手机<span class="iphone">18347100687</span></p>
+          <p>邮箱<span class="email">478708167@qq.com</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../res/layui/layui.js"></script>
+  <script type="text/javascript">
+    layui.config({
+      base: '../res/js/util/'
+    }).use(['element','laypage','form','menu'],function(){
+      element = layui.element,laypage = layui.laypage,form = layui.form,menu = layui.menu;
+      laypage.render({
+        elem: 'demo'
+        ,count: 70 //数据总数，从服务端得到
+      });
+      menu.init();
+      menu.submit();
+    })
+  </script>
+</body>
+</html>
